@@ -26,7 +26,7 @@ $ sudo passwd mark
 ```
 step 3: Login as "mark"
 
-step 4: Generate ssh keys using ```sh ssh-keygen ```  - (do not enter anything - defgault)
+step 4: Generate ssh keys using ```sh ssh-keygen ```  - (do not enter anything - default)
 
 step 5: ssh-copy-id steve@server2publicip
 
