@@ -25,12 +25,19 @@ step 2: set a password
 $ sudo passwd mark
 ```
 step 3: Login as "mark"
+
 step 4: Generate ssh keys using ```sh ssh-keygen ```  - (do not enter anything - defgault)
+
 step 5: ssh-copy-id steve@server2publicip
+
 step 6: This will ask for password of steve.
+
 step 7: Enter the password
+
 step 8: Give you a message the one key copied
+
 step 9: If this gives error, then 
+
 step 10: copy your public key and paste it in authorized_keys file in steve's .ssh folder
 
 ### Server 2 setup 
@@ -44,13 +51,21 @@ step 2: set a password
 $ sudo passwd steve
 ```
 step 3: Login as "steve"
+
 ### Manual Process
+
 step 4: ssh-keygen ( .ssh)
+
 step 5: cd .ssh
+
 step 6: vi authorized_keys 
-step 7: Inser mode
+
+step 7: Insert mode
+
 step 8: Paste the mark id_rsa.pub key
+
 step 9: set permission to authorized_keys (If your owner permissions are not set)
+
 ```sh 
 $ sudo chmod 664 /home/steve/.ssh/authorized_keys
 ```
