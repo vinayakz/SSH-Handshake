@@ -69,3 +69,11 @@ step 9: set permission to authorized_keys (If your owner permissions are not set
 ```sh 
 $ sudo chmod 664 /home/steve/.ssh/authorized_keys
 ```
+
+###
+This step in server 1 
+
+```sh
+[mark@ip-177-32-98-91 ~] $ ssh steve@ipaddressOfstevepublicIP
+```
+ 
